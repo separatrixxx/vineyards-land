@@ -7,7 +7,7 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 function App() {
 
   if (document.location.pathname === '/') {
-    document.title = 'VineyardsLand';
+    document.title = "Vineyard's Land";
   } else {
     document.title = '404';
   }
