@@ -4,7 +4,7 @@ import NotFound from './pages/NotFound'
 
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
-function App() {b
+function App() {
 
   if (document.location.pathname === '/') {
     document.title = "Vineyard's Land";
