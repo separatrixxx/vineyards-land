@@ -6,9 +6,9 @@ function MainForms () {
         <div className="flex justify-center w-full p-5 mt-10 md:mt-0 drop-shadow-xl">
             <div className="flex flex-col justify-center items-center w-full md:w-2/3 lg:w-1/3 bg-white rounded-3xl px-5">
                 <div className="flex justify-center mt-7">
-                    <h1 id="login_title" className="text-white text-sm md:text-lg bg-green-600 px-5 py-1 scale-110
+                    <h1 id="login_title" className="text-white text-sm md:text-lg bg-green-600 px-5 py-2 scale-110
                     rounded-full cursor-pointer transition-all duration-500 ease-in-out mr-1 md:mr-2">Авторизация</h1>
-                    <h1 id="registration_title" className="text-black text-sm md:text-lg hover:bg-black/10 px-5 py-1
+                    <h1 id="registration_title" className="text-black text-sm md:text-lg hover:bg-black/10 px-5 py-2
                     rounded-full cursor-pointer transition-all duration-500 ease-in-out ml-1 md:ml-2">Регистрация</h1>
                 </div>
                 <div className="w-5/6 h-px bg-slate-200 my-7"></div>
