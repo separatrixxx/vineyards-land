@@ -7,9 +7,9 @@ function MainForms () {
             <div className="flex flex-col justify-center items-center w-full md:w-2/3 lg:w-1/3 bg-white rounded-3xl px-5">
                 <div className="flex justify-center mt-7">
                     <h1 id="login_title" className="text-white text-sm md:text-lg bg-green-600 px-5 py-2 scale-110
-                    rounded-full cursor-pointer transition-all duration-500 ease-in-out mr-1 md:mr-2">Авторизация</h1>
+                    rounded-full cursor-pointer transition-all duration-300 ease-in-out mr-1 md:mr-2">Авторизация</h1>
                     <h1 id="registration_title" className="text-black text-sm md:text-lg hover:bg-black/10 px-5 py-2
-                    rounded-full cursor-pointer transition-all duration-500 ease-in-out ml-1 md:ml-2">Регистрация</h1>
+                    rounded-full cursor-pointer transition-all duration-300 ease-in-out ml-1 md:ml-2">Регистрация</h1>
                 </div>
                 <div className="w-5/6 h-px bg-slate-200 my-7"></div>
                 <div id="login_form" className="flex flex-col items-center pb-7">
@@ -41,8 +41,8 @@ function MainForms () {
                         className="block shadow-inner md:w-96 h-10 w-64 mt-3 md:mt-7 rounded-full pl-8 p-3 outline-green-600
                             focus:outline-2 ease-in-out duration-300"
                         placeholder="Повторите пароль" type="text"/>
-                    <button id="registration_btn" className="md:w-48 w-40 h-10 rounded-full mt-10 md:mt-14 text-xs md:text-sm bg-green-600
-                    text-white drop-shadow-xl font-bold hover:scale-105 transition-all ease-in-out duration-300">
+                    <button id="registration_btn" className="md:w-48 w-40 h-10 rounded-full mt-10 md:mt-14 text-xs md:text-sm
+                    bg-green-600 text-white drop-shadow-xl font-bold hover:scale-105 transition-all ease-in-out duration-300">
                         Зарегистрироваться
                     </button>
                 </div>
@@ -51,8 +51,9 @@ function MainForms () {
                         className="block shadow-inner md:w-96 h-10 w-64 rounded-full pl-8 p-3 outline-green-600
                             focus:outline-2 ease-in-out duration-300"
                         placeholder="E-mail" type="text"/>
-                    <button id="forgot_password_btn" className="md:w-48 h-10 w-36 rounded-full mt-10 md:mt-14 text-xs md:text-sm bg-green-600
-                    text-white drop-shadow-xl font-bold hover:scale-105 transition-all ease-in-out duration-300">
+                    <button id="forgot_password_btn" className="md:w-48 h-10 w-36 rounded-full mt-10 md:mt-14 text-xs
+                    md:text-sm bg-green-600 text-white drop-shadow-xl font-bold hover:scale-105 transition-all ease-in-out
+                    duration-300">
                         Восстановить
                     </button>
                 </div>
