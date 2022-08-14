@@ -23,12 +23,14 @@ loginTitle?.addEventListener('click', () => {
     registrationTitle?.classList.remove('bg-green-600');
     registrationTitle?.classList.remove('scale-110');
     registrationTitle?.classList.remove('text-white');
+    registrationTitle?.classList.remove('drop-shadow-xl');
     registrationTitle?.classList.add('text-black');
     registrationTitle?.classList.add('hover:bg-black/10');
 
     loginTitle?.classList.add('bg-green-600');
     loginTitle?.classList.add('scale-110');
     loginTitle?.classList.add('text-white');
+    loginTitle?.classList.add('drop-shadow-xl');
     loginTitle?.classList.remove('text-black');
     loginTitle?.classList.remove('hover:bg-black/10');
 
@@ -41,12 +43,14 @@ registrationTitle?.addEventListener('click', () => {
     registrationTitle?.classList.add('bg-green-600');
     registrationTitle?.classList.add('scale-110');
     registrationTitle?.classList.add('text-white');
+    registrationTitle?.classList.add('drop-shadow-xl');
     registrationTitle?.classList.remove('text-black');
     registrationTitle?.classList.remove('hover:bg-black/10');
 
     loginTitle?.classList.remove('bg-green-600');
     loginTitle?.classList.remove('scale-110');
     loginTitle?.classList.remove('text-white');
+    loginTitle?.classList.remove('drop-shadow-xl');
     loginTitle?.classList.add('text-black');
     loginTitle?.classList.add('hover:bg-black/10');
 
@@ -59,12 +63,14 @@ forgotPasswordTitle?.addEventListener('click', () => {
     registrationTitle?.classList.remove('bg-green-600');
     registrationTitle?.classList.remove('scale-110');
     registrationTitle?.classList.remove('text-white');
+    registrationTitle?.classList.remove('drop-shadow-xl');
     registrationTitle?.classList.add('text-black');
     registrationTitle?.classList.add('hover:bg-black/10');
 
     loginTitle?.classList.remove('bg-green-600');
     loginTitle?.classList.remove('scale-110');
     loginTitle?.classList.remove('text-white');
+    loginTitle?.classList.remove('drop-shadow-xl');
     loginTitle?.classList.add('text-black');
     loginTitle?.classList.add('hover:bg-black/10');
 
