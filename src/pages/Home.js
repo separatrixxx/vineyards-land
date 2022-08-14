@@ -1,27 +1,17 @@
 import React from 'react';
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import MainHeader from '../components/MainHeader'
+import MainForms from '../components/MainForms'
+import MainFooter from '../components/MainFooter'
 
 
 function Home () {
     return (
-        <div className="scroll-smooth bg-white">
-            <Header />
-            <div id="first_div" className="w-full h-screen bg-white" onTouchStart={closeMenu}>
-
-            </div>
-            <Footer />
+        <div id="first_div" className="w-full h-screen bg-green-600 scroll-smooth bg-cover bg-center bg-no-repeat">
+            <MainHeader />
+            <MainForms />
+            <MainFooter />
         </div>
     );
-}
-
-function closeMenu() {
-    document.getElementById('close_menu').classList.add('hidden');
-    document.getElementById('link_1').classList.add('hidden');
-    document.getElementById('link_2').classList.add('hidden');
-    document.getElementById('link_3').classList.add('hidden');
-    document.getElementById('link_4').classList.add('hidden');
-    document.getElementById('burger_menu').classList.remove('hidden');
 }
 
 
