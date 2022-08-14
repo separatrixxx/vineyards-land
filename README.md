@@ -1,1 +1,3 @@
-# vineyards-land
+# VineyardsLand
+
+### Для запуска введите yarn start
