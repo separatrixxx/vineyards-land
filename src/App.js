@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-      <div className="scroll-smooth bg-neutral-900">
+      <div className="scroll-smooth">
         <Router>
           <Routes>
             <Route path='/' element={<Home/>} />
